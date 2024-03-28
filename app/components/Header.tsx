@@ -7,7 +7,7 @@ type HeaderProps = {
 
 function Header({ title }: HeaderProps) {
   return (
-    <header className="bg-white w-full flex items-center justify-between px-10 py-8">
+    <header className="fixed top-0 left-0 bg-white w-full flex items-center justify-between px-10 py-8 border border-b border-black">
       <NavLink to="/home">
         <p className="text-5xl tracking-wide">{title}</p>
       </NavLink>
